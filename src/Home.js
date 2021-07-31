@@ -16,7 +16,7 @@ export const Home = () => {
 
   useEffect(() => {
     DataApi();
-  });
+  },[]);
 
 if(!load){
     return(<h2>...loading</h2>)
